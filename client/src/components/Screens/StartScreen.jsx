@@ -1,6 +1,6 @@
 import React from 'react'
-import { AuthForm } from '../components/AuthForm.jsx'
-import { ButtonList } from '../components/ButtonList'
+import { AuthForm } from '../Forms/AuthForm.jsx'
+import { ButtonList } from '../Buttons/ButtonList'
 
 import '../styles/components/Screens.css'
 
