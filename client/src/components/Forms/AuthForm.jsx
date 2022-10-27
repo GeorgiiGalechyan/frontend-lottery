@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 
+import '../../styles/components/Forms/AuthForm.css'
+
 export const AuthForm = () => {
   const [remember, setRemember] = useState(true)
 
@@ -8,20 +10,25 @@ export const AuthForm = () => {
     setRemember((current) => !current)
   }
 
+const handleOpen = ()=> {
+  
+}
+
   return (
-    <div className="AuthForm">
+    <div className="AuthFormContainer">
       <p className="FormTitle">A U T H O R I Z A T I O N</p>
-      <form>
-        <input type="text" placeholder="Login/E-mail/Phone" className="authFormInput" />
-        <input type="password" placeholder="Password" className="authFormInput" />
+      <form className="AuthForm">
+        <input type="text" placeholder="Login/E-mail/Phone" className="AuthFormInput" />
+        <input type="password" placeholder="Password" className="AuthFormInput" />
         <input
           type="checkbox"
-          className="authFormCheck"
+          className="AuthFormCheckbox"
           defaultChecked={true}
           value={remember}
           onChange={checkValueChange}
-        ></input>
-        <button className="signInBtn">Sign in</button>,
+        />
+        <input type="submit" className="AuthFormSubmit" value="Sign in" />
+        <button className="AuthFormButtonLink" onClick={handleOpen}>Forgot password?</button>
       </form>
     </div>
   )
