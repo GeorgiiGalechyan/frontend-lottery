@@ -1,50 +1,50 @@
 /* Color Theme Swatches in Hex */
-.Rock-&-Stone-1-hex {
+.Rock1-hex {
   color: #261e26;
 }
-.Rock-&-Stone-2-hex {
+.Rock2-hex {
   color: #4146a6;
 }
-.Rock-&-Stone-3-hex {
+.Rock3-hex {
   color: #d9c043;
 }
-.Rock-&-Stone-4-hex {
+.Rock4-hex {
   color: #d9631e;
 }
-.Rock-&-Stone-5-hex {
+.Rock5-hex {
   color: #bf1717;
 }
 
 /* Color Theme Swatches in RGBA */
-.Rock-&-Stone-1-rgba {
+.Rock1-rgba {
   color: rgba(38, 29, 38, 1);
 }
-.Rock-&-Stone-2-rgba {
+.Rock2-rgba {
   color: rgba(64, 69, 165, 1);
 }
-.Rock-&-Stone-3-rgba {
+.Rock3-rgba {
   color: rgba(216, 191, 67, 1);
 }
-.Rock-&-Stone-4-rgba {
+.Rock4-rgba {
   color: rgba(216, 98, 30, 1);
 }
-.Rock-&-Stone-5-rgba {
+.Rock-5rgba {
   color: rgba(191, 22, 22, 1);
 }
 
 /* Color Theme Swatches in HSLA */
-.Rock-&-Stone-1-hsla {
+.Rock1-hsla {
   color: hsla(298, 12, 13, 1);
 }
-.Rock-&-Stone-2-hsla {
+.Rock2-hsla {
   color: hsla(236, 43, 45, 1);
 }
-.Rock-&-Stone-3-hsla {
+.Rock3-hsla {
   color: hsla(50, 66, 55, 1);
 }
-.Rock-&-Stone-4-hsla {
+.Rock4-hsla {
   color: hsla(22, 75, 48, 1);
 }
-.Rock-&-Stone-5-hsla {
+.Rock5-hsla {
   color: hsla(0, 78, 42, 1);
 }
