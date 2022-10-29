@@ -20,8 +20,6 @@
   text-transform: uppercase;
   letter-spacing: 0.6rem;
 
-
-
   padding: 0 0 15px 0;
 }
 
@@ -36,11 +34,14 @@
   color: red;
 }
 
-.checkboxContainer {
+.formSection {
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  gap: 0 20px;
+
+  padding: 5px 10px;
+  margin: 10px 0;
 }
 
 /* Чекбокс (сама кнопка)*/
