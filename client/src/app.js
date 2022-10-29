@@ -1,17 +1,15 @@
 import React from 'react'
-import { Header } from './components/Header/Header'
-import { StartScreen } from './components/Screens/StartScreen'
+import { StartScreen } from './components/Screens/StartScreen/StartScreen'
 import { Footer } from './components/Footer/Footer'
 
-
-import './styles/App.css'
+import classes from './App.module.css'
 
 export const App = () => {
   return (
-    <div className="App">
-      <Header />
+    <div className={classes.App}>
       <StartScreen />
       <Footer />
     </div>
   )
 }
+

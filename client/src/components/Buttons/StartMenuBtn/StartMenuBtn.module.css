@@ -1,0 +1,12 @@
+.allBtn {
+  background-color: #15202b;
+  padding: 5px 20px;
+
+  font-family: 'Cairo Play', cursive;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.06rem;
+  color: #ffffff;
+
+  border: 2px solid #e34761;
+}

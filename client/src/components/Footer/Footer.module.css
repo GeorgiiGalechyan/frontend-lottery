@@ -1,0 +1,11 @@
+.footerContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #bf1717;
+}
+
+.footerText {
+  font-family: 'Graduate', cursive;
+  color: #d9c043;
+  text-align: center;
+}

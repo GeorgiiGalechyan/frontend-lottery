@@ -1,5 +1,5 @@
 /* Родительский контейнер (обертка) для компонента */
-.modal {
+.spaceAroundModal {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.75);
@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-.modalContent {
+.modal {
   padding: 20px;
   border-radius: 1px;
   background-color: white;
@@ -19,11 +19,11 @@
   width: 400px;
 }
 
-.modalCloseButton {
+.closeBtn {
   color: #bf1717;
 }
 
-.modalTitle {
-  color: #d9631e;
-  font-size: 24px;
+.modalWindowsContent {
+  display: flex;
+  flex-flow: column;
 }

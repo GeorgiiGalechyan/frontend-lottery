@@ -1,0 +1,16 @@
+.BtnListConteiner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+
+  width: 100vw;
+}
+
+.BtnList {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.Btn {
+  
+}

@@ -1,0 +1,75 @@
+/* Родительский контейнер (обертка) для компонента (<div>)*/
+.formContainer {
+  max-width: 400px;
+  padding: 30px;
+
+  background-color: #192734;
+  border-radius: 2px;
+
+  border: 1px solid red;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* Заголовок формы  (<p>)*/
+.formTitle {
+  font-family: 'Graduate', cursive;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+
+
+
+  padding: 0 0 15px 0;
+}
+
+/* Форма ауентфикации (<form>)*/
+.authForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Поля ввода текста*/
+.textInput {
+  color: red;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  gap: 0 20px;
+}
+
+/* Чекбокс (сама кнопка)*/
+.checkbox {
+  color: red;
+}
+
+/* Текс чекбокса (этикетка) */
+.checkboxLabel {
+  font-family: 'Cairo Play', cursive;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Кнопка "Sign in" */
+.signInBtn {
+  background-color: #22303c;
+  font-family: 'Graduate', cursive;
+  font-size: 14px;
+  letter-spacing: 0.035rem;
+  color: #ffffff;
+}
+
+/* Кнопка "Forgot password" */
+.recoverPassBtn {
+  background-color: #22303c;
+  font-family: 'Graduate', cursive;
+  font-size: 14px;
+  letter-spacing: 0.035rem;
+  color: #ffffff;
+}

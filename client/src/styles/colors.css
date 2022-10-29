@@ -1,50 +1,18 @@
-/* Color Theme Swatches in Hex */
-.Rock1-hex {
-  color: #261e26;
+.background {
+  background-color: #15202b;
 }
-.Rock2-hex {
-  color: #4146a6;
-}
-.Rock3-hex {
-  color: #d9c043;
-}
-.Rock4-hex {
-  color: #d9631e;
-}
-.Rock5-hex {
-  color: #bf1717;
+.card {
+  background-color: #192734;
 }
 
-/* Color Theme Swatches in RGBA */
-.Rock1-rgba {
-  color: rgba(38, 29, 38, 1);
-}
-.Rock2-rgba {
-  color: rgba(64, 69, 165, 1);
-}
-.Rock3-rgba {
-  color: rgba(216, 191, 67, 1);
-}
-.Rock4-rgba {
-  color: rgba(216, 98, 30, 1);
-}
-.Rock-5rgba {
-  color: rgba(191, 22, 22, 1);
+.hover-color {
+  background-color: #22303c;
 }
 
-/* Color Theme Swatches in HSLA */
-.Rock1-hsla {
-  color: hsla(298, 12, 13, 1);
+.primary-text {
+  color: #ffffff;
 }
-.Rock2-hsla {
-  color: hsla(236, 43, 45, 1);
-}
-.Rock3-hsla {
-  color: hsla(50, 66, 55, 1);
-}
-.Rock4-hsla {
-  color: hsla(22, 75, 48, 1);
-}
-.Rock5-hsla {
-  color: hsla(0, 78, 42, 1);
+
+.secondary-text {
+  color: #8899a6;
 }
