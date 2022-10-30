@@ -1,15 +1,14 @@
 /* Родительский контейнер (обертка) для компонента (<div>)*/
 .formContainer {
-  max-width: 400px;
   padding: 30px;
 
   background-color: #192734;
   border-radius: 2px;
 
-  border: 1px solid red;
+  border: 1.5px solid red;
 
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
 }
 
 /* Заголовок формы  (<p>)*/
@@ -19,7 +18,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.6rem;
-
+  color: #ffffff;
   padding: 0 0 15px 0;
 }
 
@@ -31,7 +30,7 @@
 
 /* Поля ввода текста*/
 .textInput {
-  color: red;
+  color: white;
 }
 
 .formSection {

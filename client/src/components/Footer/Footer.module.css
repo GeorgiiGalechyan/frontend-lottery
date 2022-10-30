@@ -1,7 +1,10 @@
-.footerContainer {
+.footer {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-flow: row nowrap;
-  background-color: #bf1717;
+  background-color: #020917;
+  justify-content: center;
 }
 
 .footerText {

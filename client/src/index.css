@@ -1,0 +1,11 @@
+/* Обнуление стилей от youtube канала "Фрилансер по жизни" */
+@import './reset.css';
+
+/* Импорт шрифтов с сайта https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&family=Cairo+Play:wght@500;600;700&family=Graduate&display=swap');
+
+/*
+font-family: 'Battambang', cursive;  -  мелкие надписи
+font-family: 'Cairo Play', cursive;  -  кнопки меню
+font-family: 'Graduate', cursive; -  заголовки форм
+*/

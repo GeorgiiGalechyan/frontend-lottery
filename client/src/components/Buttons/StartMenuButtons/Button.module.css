@@ -9,4 +9,8 @@
   color: #ffffff;
 
   border: 2px solid #e34761;
+  width: 300px;
+
+  align-self: flex-end;
+  margin: 0 0 10px 0;
 }

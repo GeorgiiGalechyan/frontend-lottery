@@ -6,5 +6,6 @@
   font-size: 16px;
   color: #ffffff;
 
-  border: 2px solid #e34761;
+  border: 1px solid #ffffff;
+  cursor: pointer;
 }

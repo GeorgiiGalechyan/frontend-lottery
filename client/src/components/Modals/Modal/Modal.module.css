@@ -1,0 +1,32 @@
+/* Родительский контейнер (обертка) для компонента */
+.Modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background-color: #15202b;
+}
+
+.ModalContent {
+  min-width: 250px;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1.5px solid gray;
+  border-radius: 2px;
+}
+
+.Modal.active {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #15202b;
+}
+
+.closeBtn {
+  color: #ffffff;
+  align-items: flex-end;
+}
