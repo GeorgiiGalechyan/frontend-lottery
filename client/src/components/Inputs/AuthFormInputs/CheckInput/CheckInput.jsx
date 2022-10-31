@@ -1,27 +1,13 @@
 import React from 'react'
-import { useState } from 'react'
-import classes from './CheckInput.module.css'
+import cl from './CheckInput.module.css'
 
-export const CheckInput = ({ id, title, ...props }) => {
-  const [remember, setRemember] = useState(true)
-
-  const toChangeCheckValue = () => {
-    setRemember((current) => !current)
-  }
-
+export const CheckInput = ({ id, label, ...props }) => {
   return (
-    <>
-      <input
-        id={id}
-        type="checkbox"
-        className={classes.checkInput}
-        checked={remember}
-        onChange={toChangeCheckValue}
-        {...props}
-      />
-      <label className={classes.checkLabel} htmlFor={id}>
-        {title}
+    <div className={cl.ChecklabelSection}>
+      <input type="checkbox" id={id} className={cl.CheckInput} {...props} />
+      <label className={cl.Label} htmlFor={id}>
+        {label}
       </label>
-    </>
+    </div>
   )
 }

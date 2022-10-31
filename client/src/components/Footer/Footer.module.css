@@ -1,13 +1,15 @@
-.footer {
+.Footer {
   width: 100%;
   height: auto;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   background-color: #020917;
   justify-content: center;
 }
 
-.footerText {
+.FooterText {
+  background-color: transparent;
+
   font-family: 'Graduate', cursive;
   color: #d9c043;
   text-align: center;

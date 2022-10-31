@@ -5,7 +5,7 @@ import { StartScreen } from './components/Screens/StartScreen/StartScreen'
 import { Modal } from './components/Modals/Modal/Modal'
 import { AuthForm } from './components/Forms/AuthForm/AuthForm'
 import { Footer } from './components/Footer/Footer'
-import cl from './App.module.css'
+import './App.css'
 
 export const App = () => {
   const [modal, setModal] = useState(false)
@@ -18,14 +18,13 @@ export const App = () => {
   }
 
   return (
-    <div className={cl.App}>
+    <div className="App">
       <AuthButton title="Sign In" onClick={openModal} />
       <StartScreen>
         <Modal visible={modal} setVisible={closeModal}>
-          {/*<AuthForm handlers={recoverPassHandler} />*/}
+          {<AuthForm handlers={recoverPassHandler} />}
         </Modal>
       </StartScreen>
-
       <Footer />
     </div>
   )

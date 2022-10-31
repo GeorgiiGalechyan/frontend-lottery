@@ -1,8 +1,11 @@
-.checkInput {
+.ChecklabelSection {
+  width: 100%;
+}
+
+.CheckInput {
   border: 1px solid red;
 }
 
-.checkLabel {
-  color: red
-  
+.Label {
+  color: red;
 }
