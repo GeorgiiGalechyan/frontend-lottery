@@ -1,8 +1,11 @@
+/* Убираем отступы и рамки */
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
+
+/* Способ расчёты высоты и ширины */
 *,
 *:before,
 *:after {
@@ -11,15 +14,19 @@
   box-sizing: border-box;
 }
 
+/*Убираем подчёркивание текста */
 :focus,
 :active {
   outline: none;
 }
+
+/*Убираем подчёркивание ссылок */
 a:focus,
 a:active {
   outline: none;
 }
 
+/**/
 nav,
 footer,
 header,
@@ -39,6 +46,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+/* задаем наследование семейства шрифтов*/
 input,
 button,
 textarea {
@@ -49,32 +57,39 @@ input::-ms-clear {
   display: none;
 }
 
+/* курсор при наведении кнопок*/
 button {
   cursor: pointer;
 }
 
+/* */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
+/* Убираем декоративные эфекты ссылок */
 a,
 a:visited {
   text-decoration: none;
 }
 
+/* Убираем декоративные эфекты ссылок */
 a:hover {
   text-decoration: none;
 }
 
+/* Убираем маркировку в списках */
 ul li {
   list-style: none;
 }
 
+/* Выравнивание верхнюю границу изображений */
 img {
   vertical-align: top;
 }
 
+/* Приводим все стили заголовков к обычному тексту */
 h1,
 h2,
 h3,
