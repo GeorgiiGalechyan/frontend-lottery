@@ -36,8 +36,8 @@ aside {
 
 html,
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   font-size: 100%;
   line-height: 1px;
   font-size: 16px;
@@ -45,6 +45,8 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+
 
 /* задаем наследование семейства шрифтов*/
 input,

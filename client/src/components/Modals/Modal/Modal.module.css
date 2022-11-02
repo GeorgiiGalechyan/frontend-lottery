@@ -8,32 +8,25 @@
   bottom: 0;
   right: 0;
   display: none;
-  background-color: #22303c;
+  background-color: #020917;
 }
 
 .Modal.active {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #22303c;
 }
 
 .ModalContent {
   min-width: 250px;
   max-height: 400px;
+  padding: 25px;
   display: flex;
   flex-flow: column nowrap;
-  padding: 25px;
-  border: 1.2px solid rgb(255, 255, 255);
+
+  background-color: transparent;
+  border: 1.2px solid #e94560;
   border-radius: 2px;
-  background-color: #22303c;
 }
 
 .closeBtn {

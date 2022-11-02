@@ -4,7 +4,7 @@ import { TextInput } from '../../Inputs/AuthFormInputs/TextInput/TextInput'
 import { PassInput } from '../../Inputs/AuthFormInputs/PassInput/PassInput'
 import { CheckInput } from '../../Inputs/AuthFormInputs/CheckInput/CheckInput'
 import { Button } from '../../Buttons/AuthFormButtons/Button'
-import classes from './AuthForm.module.css'
+import cl from './AuthForm.module.css'
 
 //=====================================================================
 
@@ -28,9 +28,9 @@ export const AuthForm = ({ handlers }) => {
 
   // Возвращаем (рендерим) компонент
   return (
-    <div className={classes.formContainer}>
-      <p className={classes.formTitle}>AUTHORIZATION</p>
-      <form onSubmit={(e) => e.preventDefault()} className={classes.authForm}>
+    <div className={cl.formContainer}>
+      <p className={cl.formTitle}>AUTHORIZATION</p>
+      <form onSubmit={(e) => e.preventDefault()} className={cl.authForm}>
         <TextInput id="login" placeholder="Login/E-mail/Phone" value={authData.login} onChange={changeValue} />
         <PassInput id="password" placeholder="Password" value={authData.password} onChange={changeValue} />
         <CheckInput
@@ -43,6 +43,7 @@ export const AuthForm = ({ handlers }) => {
         <Button title="Sign in" onClick={signIn} />
         <Button title="Forgot password?" onClick={handlers} />
       </form>
+      
     </div>
   )
 }

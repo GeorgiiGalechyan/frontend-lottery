@@ -1,5 +1,8 @@
 .authBtn {
-  background-color: #020917;
+  background-color: #16213e;
+  padding: 10px 15px;
+
+  align-self: flex-end;
 
   font-family: 'Graduate', cursive;
   font-size: 16px;

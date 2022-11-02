@@ -1,4 +1,6 @@
 .screen {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

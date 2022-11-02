@@ -1,6 +1,6 @@
 import React from 'react'
-import { ButtonList as StartMenu } from '../../ButtonsList/StartMenuBtnList/ButtonsList'
-import classes from './StartScreen.module.css'
+import { ButtonList } from '../../ButtonsList/StartMenuBtnList/ButtonsList'
+import cl from './StartScreen.module.css'
 
 export const StartScreen = ({ children, startMenuHandlers }) => {
   const buttons = [
@@ -12,8 +12,8 @@ export const StartScreen = ({ children, startMenuHandlers }) => {
   ]
 
   return (
-    <div className={classes.screen}>
-      <StartMenu buttons={buttons} />
+    <div className={cl.screen}>
+      <ButtonList buttons={buttons} />
       {children}
     </div>
   )

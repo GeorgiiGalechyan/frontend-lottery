@@ -1,4 +1,4 @@
-.allBtn {
+.startMenuBtn {
   background-color: #15202b;
   padding: 5px 20px;
 
@@ -12,5 +12,5 @@
   width: 300px;
 
   align-self: flex-end;
-  margin: 0 0 10px 0;
+
 }

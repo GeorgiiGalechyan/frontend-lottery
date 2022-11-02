@@ -1,0 +1,7 @@
+.Header {
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}

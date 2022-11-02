@@ -1,6 +1,26 @@
 .textInput {
+  box-sizing: border-box;
   width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
   padding: 5px 10px;
-  margin: 10px 0;
-  border: 1px solid red;
+  border: 2px solid #16213e;
+
+  /* Текст*/
+  color: #0f3460;
+  text-align: center;
+  font-family: 'Battambang', cursive;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  font-size: 16px;
+}
+
+.textInput:focus {
+  border: 2px solid #0f3460;
+}
+
+/* Placeholder */
+input::placeholder {
+  opacity: 0.8;
+  letter-spacing: 0.04rem;
 }

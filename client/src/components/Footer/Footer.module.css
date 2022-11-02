@@ -1,10 +1,11 @@
 .Footer {
-  width: 100%;
-  height: auto;
+  z-index: 5;
+  height: 50px;
+  background-color: #e94560;
   display: flex;
-  flex-flow: row wrap;
-  background-color: #020917;
+  flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
 }
 
 .FooterText {
