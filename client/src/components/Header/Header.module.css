@@ -1,5 +1,5 @@
 .Header {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;

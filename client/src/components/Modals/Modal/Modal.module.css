@@ -13,14 +13,14 @@
 
 .Modal.active {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .ModalContent {
-  min-width: 250px;
-  max-height: 400px;
-  padding: 25px;
+  max-width: 400px;
+  padding: 35px;
   display: flex;
   flex-flow: column nowrap;
 
@@ -30,14 +30,15 @@
 }
 
 .closeBtn {
-  margin: 0 0 15px 0;
-  align-self: flex-end;
+  position: absolute;
+  top: 15px;
+  right: 15px;
   background-color: transparent;
   font-family: 'Battambang', cursive;
   font-size: 20px;
-  color: #ffffff;
+  color: #e94560;
 }
 
 .closeBtn:hover {
-  color: red;
+  color: #ffffff;
 }

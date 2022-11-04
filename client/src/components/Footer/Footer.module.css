@@ -1,17 +1,17 @@
 .Footer {
-  z-index: 5;
-  height: 50px;
-  background-color: #e94560;
+  padding: 25px 0;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 
-.FooterText {
-  background-color: transparent;
-
-  font-family: 'Graduate', cursive;
-  color: #d9c043;
-  text-align: center;
+.Text {
+  color: #e94560;
+  font-family: 'Battambang', cursive;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04rem;
 }

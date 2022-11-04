@@ -1,52 +1,67 @@
-/* Убираем отступы и рамки */
-* {
+/* Отступы, рамки, box-sizing */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-/* Способ расчёты высоты и ширины */
-*,
-*:before,
-*:after {
+  box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
-/*Убираем подчёркивание текста */
-:focus,
-:active {
-  outline: none;
-}
-
-/*Убираем подчёркивание ссылок */
-a:focus,
-a:active {
-  outline: none;
-}
-
-/**/
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
+/* Cтили */
 html,
 body {
-  height: 100vh;
-  width: 100vw;
-  font-size: 100%;
-  line-height: 1px;
-  font-size: 16px;
+  height: 100%;
+  line-height: 1;
+  font-size: 18px;
+  background-color: #020917;
+  color: #ffffff;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
+#root {
+  height: 100%;
+}
 
+/*Отключаем маркировку в списках.*/
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/*Свойство outline задает стиль контура элемента./*
+/*Контур - это линия, которая рисуется вокруг элемента, за пределами border.*/
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+/* Убираем декоративные эфекты ссылок */
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+/* Приводим все стили заголовков к обычному тексту */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
 
 /* задаем наследование семейства шрифтов*/
 input,
@@ -70,34 +85,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-/* Убираем декоративные эфекты ссылок */
-a,
-a:visited {
-  text-decoration: none;
-}
-
-/* Убираем декоративные эфекты ссылок */
-a:hover {
-  text-decoration: none;
-}
-
-/* Убираем маркировку в списках */
-ul li {
-  list-style: none;
-}
-
-/* Выравнивание верхнюю границу изображений */
+/*Выравнивание верхнюю границу изображений.*/
 img {
   vertical-align: top;
-}
-
-/* Приводим все стили заголовков к обычному тексту */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
 }

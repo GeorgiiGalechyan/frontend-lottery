@@ -1,0 +1,12 @@
+.Button {
+  background-color: #16213e;
+  padding: 10px 35px;
+
+  font-family: 'Graduate', cursive;
+  font-size: 18px;
+  line-height: 22px;
+  color: #acffca;
+  letter-spacing: 0.03rem;
+
+  cursor: pointer;
+}

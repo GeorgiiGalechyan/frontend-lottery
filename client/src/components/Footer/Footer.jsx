@@ -1,11 +1,11 @@
 import React from 'react'
 import cl from './Footer.module.css'
 
-export const Footer = ({ children }) => {
+export const Footer = ({ children, ...props }) => {
   return (
-    <footer className={cl.Footer}>
+    <footer className={cl.Footer} {...props}>
       {children}
-      <p className={cl.FooterText}> Developed by Georgii Galechyan in 2022 </p>
+      <p className={cl.Text}> Developed by Georgii Galechyan in 2022 </p>
     </footer>
   )
 }

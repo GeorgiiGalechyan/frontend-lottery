@@ -1,0 +1,8 @@
+.Form {
+  padding: 20px 30px;
+  background-color: #192734;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}

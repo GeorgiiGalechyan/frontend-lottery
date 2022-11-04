@@ -7,14 +7,12 @@ export const Modal = ({ children, visible, setVisible }) => {
     rootClasses.push(cl.active)
   }
 
-  const stopCloseEvent = (event) => event.stopPropagation()
-
   return (
     <div className={rootClasses.join(' ')} onClick={setVisible}>
-      <div className={cl.ModalContent} onClick={stopCloseEvent}>
-        <button className={cl.closeBtn} onClick={setVisible}>
-          X
-        </button>
+      <button className={cl.closeBtn} onClick={setVisible}>
+        X
+      </button>
+      <div className={cl.ModalContent} onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
     </div>

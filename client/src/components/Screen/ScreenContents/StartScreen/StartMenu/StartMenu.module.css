@@ -1,0 +1,6 @@
+.startMenuBtnList {
+  display: flex;
+  flex-flow: column nowrap;
+
+  gap: 10px 0; /*отступы м/у дочерними элементами*/
+}

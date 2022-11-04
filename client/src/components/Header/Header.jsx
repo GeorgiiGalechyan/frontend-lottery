@@ -5,36 +5,27 @@ import { useState } from 'react'
 
 // ============== Components ============== //
 
-import { AuthButton } from '../UI/AuthButton/AuthButton'
+import { Button } from '../UI/Button/Button'
 import { Modal } from '../Modals/Modal/Modal'
-import { AuthForm } from '../Forms/AuthForm/AuthForm'
-import { RegForm } from '../Forms/RegForm/RegForm'
-import { RecoverPass } from '../Forms/RecoverPassForm/StartScreen/RecoverPassStartScreen'
+import { AuthForm } from './Auth/ModalContents/Authorization/AuthForm'
 
 // ================ Style ================ //
-
 import cl from './Header.module.css'
-import { RecoverPassForm } from '../Forms/RecoverPassForm/StartScreen/RecoverPassStartScreen'
 
 // =============== HEADER =============== //
 
 export const Header = ({ children, ...props }) => {
   const [modal, setModal] = useState(false)
-  const [authForm, setAuthForm] = useState(true)
-  const [regForm, setRegForm] = useState(false)
 
-  const recoverPass = () => {
-    console.log('recoverPassHandler')
-  }
+  const recoverPass = () => console.log('recoverPass')
 
   return (
-    <div className={cl.Header}>
-      <AuthButton title="Sign In" onClick={() => setModal(true)} />
+    <header className={cl.Header}>
+      <Button onClick={() => setModal(true)}>Sign in</Button>
       <Modal visible={modal} setVisible={() => setModal(false)}>
-        {Boolean(authForm) && <AuthForm handlers={null} />}
-        {Boolean(regForm) && <RegForm />}
-        {Boolean(regForm) && <RecoverPass />}
+        <AuthForm></AuthForm>
+        <button onClick={recoverPass}>Forgot password?</button>
       </Modal>
-    </div>
+    </header>
   )
 }
