@@ -1,0 +1,38 @@
+.ListOfGames {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.Games {
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Card {
+  min-height: 345px;
+  min-width: 300px;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #16213e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.GameName {
+  color: #ffffff;
+  font-family: 'Graduate', cursive;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+.ScreenTitle {
+  margin: 0 0 30px 0;
+  color: #ffffff;
+  font-family: 'Graduate', cursive;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+}

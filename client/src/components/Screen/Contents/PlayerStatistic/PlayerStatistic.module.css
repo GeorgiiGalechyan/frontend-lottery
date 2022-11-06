@@ -1,0 +1,7 @@
+.Statistic {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  align-items: center;
+}

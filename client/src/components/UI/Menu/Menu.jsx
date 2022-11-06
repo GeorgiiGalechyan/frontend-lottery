@@ -5,7 +5,7 @@ import cl from './Menu.module.css'
 
 export const Menu = ({ menuItems }) => {
 
-  const Items = menuItems.map((i) => <Item key={i.id} title={i.title} onClick={i.onClick} />)
+  const Items = menuItems.map((i) => <Item key={i.id} onClick={i.onClick} >{i.title}</Item>)
 
   return <div className={cl.Menu}>{Items}</div>
 }
