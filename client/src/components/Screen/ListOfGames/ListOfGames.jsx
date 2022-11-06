@@ -1,8 +1,8 @@
 import React from 'react'
 
 // Children Components
-import { ScreenTitle } from '../../../UI/Title/ScreenTitle/ScreenTitle'
-import { CardTitle } from '../../../UI/Title/CardTitle/CardTitle'
+import { ScreenTitle } from '../../../components/UI/Title/ScreenTitle/ScreenTitle'
+import { CardTitle } from '../../../components/UI/Title/CardTitle/CardTitle'
 
 // Style
 import cl from './ListOfGames.module.css'

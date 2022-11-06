@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Children Components
-import { ScreenTitle } from '../../../UI/Title/ScreenTitle/ScreenTitle'
+import { ScreenTitle } from '../../../components/UI/Title/ScreenTitle/ScreenTitle'
 
 // Style
 import cl from './PlayerStatistic.module.css'

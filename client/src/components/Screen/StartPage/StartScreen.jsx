@@ -2,7 +2,7 @@ import React from 'react'
 // import { StartMenu } from './StartMenu/StartMenu'
 
 // Children Components
-import { ScreenTitle } from '../../../UI/Title/ScreenTitle/ScreenTitle'
+import { ScreenTitle } from '../../../components/UI/Title/ScreenTitle/ScreenTitle'
 
 // Styles
 import cl from './StartScreen.module.css'
