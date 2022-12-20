@@ -1,8 +1,12 @@
+../.vscode/
+../backend/
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
-../backend
+
+
 
 # testing
 /coverage
