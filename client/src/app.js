@@ -1,5 +1,8 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+// Layout
+// import Layout from './Layouts/Layout'
 
 // Components
 import { Navbar } from './components/NavBar/Navbar'
@@ -32,7 +35,22 @@ export const App = () => {
         <Screen></Screen>
       </Router>
       <Footer />
-      {/* </Routes> */}
     </div>
   )
 }
+
+/* <div className="App">
+  <Header />
+  <Router>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<StartScreen />} />
+      <Route path="/games" element={<ListOfGames />} />
+      <Route path="/rating" element={<Rating />} />
+      <Route path={`/statistics`} element={<PlayerStatistic />} />
+      <Route path="*" element={<h1>Error</h1>} />
+    </Routes>
+    <Screen></Screen>
+  </Router>
+  <Footer />
+</div> */
